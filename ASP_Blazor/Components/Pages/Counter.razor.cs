@@ -5,11 +5,8 @@ namespace ASP_Blazor.Components.Pages
     public partial class Counter
     {
         private int currentCount = 0;
-
 		string text = "";
-
 		string divText = "Mouse out";
-
 		string searchResult = "";
 
 		private void IncrementCount(Microsoft.AspNetCore.Components.Web.MouseEventArgs e) => currentCount++;
